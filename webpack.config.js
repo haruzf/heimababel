@@ -40,6 +40,10 @@ module.exports = {
                 }
             },
             type: 'javascript/auto'
+        }, {
+            test: /\.js$/,
+            use: 'babel-loader',
+            exclude: /node_modules/
         }, ]
     }
 

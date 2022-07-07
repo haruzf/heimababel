@@ -8,3 +8,9 @@ $(function() {
     $('li:odd').css('backgroundColor', 'orange')
     $('li:even').css('backgroundColor', 'lightblue')
 })
+
+class Person {
+    static info = 'aaabca'
+}
+
+console.log(Person.info);
