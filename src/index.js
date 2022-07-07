@@ -5,6 +5,6 @@ import './css/1.scss'
 // import App from './components/App.vue'
 
 $(function() {
-    $('li:odd').css('backgroundColor', 'red')
+    $('li:odd').css('backgroundColor', 'orange')
     $('li:even').css('backgroundColor', 'lightblue')
 })
