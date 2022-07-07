@@ -17,5 +17,12 @@ module.exports = {
             directory: path.join(__dirname, '/')
         }
     },
-    plugins: [htmlPlugin]
+    plugins: [htmlPlugin],
+    module: {
+        rules: [{
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
+        }, ]
+    }
+
 }
