@@ -8,4 +8,9 @@ module.exports = {
         filename: 'bundle.js',
         // publicPath: '../dist/'
     },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, '/')
+        }
+    },
 }
